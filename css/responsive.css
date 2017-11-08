@@ -1,0 +1,441 @@
+/* Large desktop :1920px. */
+@media (min-width: 1920px) {   
+    .submenu-active.submenu{width: 360px}
+    .menu-bar-open nav > ul > li > a{padding: 10px 50px}
+    .footer-area-wrapper::before, .footer-area-wrapper::after {height: 90px; top: -168px}
+    .plan-area-wrapper::before, .skill-area-wrapper::before, .footer-area-wrapper::before, .plan-area-wrapper::after, .skill-area-wrapper::after, .footer-area-wrapper::after {height: 90px}
+    .blog-area.pt-100.pb-125{padding-bottom: 90px}
+    .main-wrapper.minimal{padding-left: 170px; padding-right: 170px;}
+    .main-wrapper .header-sticky.sticky {padding: 0 46px}
+    .main-wrapper.minimal .header-sticky.sticky {padding: 0 170px}
+    .minimal .slide-content h2 {font-size: 64px}
+    .slide-content-wrapper {padding: 300px 0}
+    .creative .slide-content-wrapper {padding: 400px 0}
+    .built-content {margin-left: 70px}
+    .product-grid-area::after, .product-list-area::after, .blog-page-area::after {width: 38.33%}
+    .shop .search {right: 40px}
+    .shop .slider-owl.owl-carousel .owl-dots, .corporate .slider-owl.owl-carousel .owl-dots {left: 373px}
+}
+
+/* Laptop Device :1366px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .submenu-active.submenu{width: 360px}
+    .menu-bar-open nav > ul > li > a{padding: 10px 50px}
+    .main-wrapper.minimal{padding-left: 60px; padding-right: 60px;}
+    .shop .slider-owl.owl-carousel .owl-dots, .corporate .slider-owl.owl-carousel .owl-dots {left: 103px}
+
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .logo {padding: 25px 0 23px}
+    .main-menu nav > ul > li > a {padding: 10px 30px}
+    .shop .slider-owl.owl-carousel .owl-dots, .corporate .slider-owl.owl-carousel .owl-dots {left: 52px}
+    .section-title h2 {font-size: 28px}
+    .section-title p {padding: 12px 35px 0}
+    .skill-right {margin-left: 20px}
+    .built-content, .blog-right {margin-left: 0px; margin-top: 0px}
+    .tag-wrapper a{margin-bottom: 7px; margin-right: 2px}
+    .tag-wrapper a {padding: 7px 15px}
+    .blog-content h3, .single-blog-post h4 {font-size: 12px}
+    .portfolio-area{padding-top: 30px}
+/*    .built-area {padding-top: 50px}*/
+    .portfolio-area-two.minimal{padding-bottom: 0}
+    .owl-nav div {font-size: 70px}
+    .latest-content {padding: 0}
+    .search-btn {padding: 38px 0 36px}
+    .logo.common {padding: 24px 0}
+    .sticky .logo.common {padding: 15px 0}
+    .main-menu.minimal > nav > ul > li > a {padding: 50px 15px 44px}
+    .main-menu.minimal.business > nav > ul > li > a {padding: 40px 11px 35px}
+    .main-menu.minimal.business > nav > ul > li:last-child > a {padding-right: 0px}
+    .sticky .main-menu.minimal.business > nav > ul > li > a {padding: 30px 11px 32px}
+    .sticky .main-menu.minimal > nav > ul > li > a {padding: 30px 15px 24px}
+    .sticky .main-menu.minimal.common > nav > ul > li > a {padding: 30px 28px 25px}
+    .business .slide-content h2 {font-size: 32px; line-height: 40px}
+    .business .slide-content h5 {font-size: 26px; letter-spacing: 5px; margin-bottom: 10px}
+    .four.plan-area .single-plan {padding: 50px 10px 42px 0}
+    .latest-right {margin-left: 0; margin-top: 0px}
+    .latest-left {margin-right: 0; margin-top: 20px}
+    .built-area.two .built-content {margin-right: 0px}
+    .blog-right {padding-left: 30px}
+    .blog-page-area .grid-right {padding-left: 20px}
+    .grid-right {margin-right: 0; padding-left: 20px}
+    .blog-right {height: 400px}
+    .minimal .slide-content h2 {font-size: 45px}
+    .sticky .main-menu.main.minimal > nav > ul > li > a {padding: 31px 14px 25px}
+    .sticky .main-menu.corporate > nav > ul > li > a {padding: 40px 16px 36px}
+    .sticky .search-btn {padding: 18px 0}
+    .sticky .search-btn.corporate {padding: 28px 0}
+    .sticky .search {top: 71px}
+    #contact-form input#subject {margin-right: 0px}
+    .shop .slide-content h2 {font-size: 45px}
+    .shop .slide-content h3 {font-size: 30px}
+    .off-hover h2 {padding: 30px 47px}
+    .slider-area:hover .owl-nav div {left: 10px;}
+    .slider-area:hover .owl-nav .owl-next {left: auto;  right: 10px;}
+    .product-thumb {left: 3%}
+    .product-thumb.product-thumb ul li {width: 58px}
+    .ftr-content h5 a, .popular-content h5 a {font-size: 14px}
+    .product-detail h4 a {font-size: 20px}
+    .main-menu.main.minimal > nav > ul > li > a {padding: 43px 15px 44px}
+    .slide-content h2 {font-size: 50px; line-height: 50px; margin-bottom: 15px}
+    .main-wrapper {padding: 0 20px}
+    .main-wrapper .header-sticky.sticky {padding: 0 46px}
+    .sticky .main-menu.minimal > nav > ul > li:last-child > a {padding-right: 0}
+    .sticky .main-menu.minimal.corporate > nav > ul > li:last-child > a, .sticky .main-menu.minimal.main > nav > ul > li:last-child > a {padding-right: 17px}
+    .main-menu.minimal.corporate > nav > ul > li > a {padding: 38px 17px}
+    .slider-area.corporate h2, .slider-area.corporate h2 span {font-size: 48px; line-height: 38px}
+    .blog-date {margin-right: 15px}
+    .fun-content h3 {font-size: 50px}
+    .product-grid-area::after, .product-list-area::after, .blog-page-area::after {width: 32.33%}
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu nav > ul > li > a {font-size: 12px; padding: 10px 35px}
+    .logo {padding: 21px 0}
+    .header-cart.main {padding: 29px 0}
+    .slide-content h2 {font-size: 45px;line-height: 30px}
+    .latest-area .col-sm-6:nth-child(4){margin-bottom: 40px}
+    .built-area.two .built-content a {display: inline-block; margin-bottom: 30px}
+    .fun-content h3 {font-size: 50px}
+    .skill-right, .blog-right {margin-left: 0px; margin-top: 30px}
+    .built-img > img {width: 100%}
+    .built-content{margin-left: 0}
+    .plan-area-wrapper::before, .skill-area-wrapper::before, .blog-area-wrapper::before, .plan-area-wrapper::after, .skill-area-wrapper::after, .blog-area-wrapper::after {bottom: -44px}
+    .portfolio-area{padding-top: 30px}
+    .main-menu.main.minimal > nav > ul > li > a {font-size: 11px; padding: 38px 5px 35px}
+    .slide-content-wrapper {padding: 100px 0}
+    .slide-content h2{font-size: 35px; line-height: 20px;}
+    .section-title p, .blog-area .section-title p {padding: 12px 140px 0}
+    .blog-area.two .col-md-4:last-child{margin-top: 30px}
+    .fun-content h3 {font-size: 35px}
+    .footer-bottom form, .footer-bottom form input {width: 330px}
+    .main-menu.minimal > nav > ul > li > a {padding: 47px 8px}
+    .main-menu.common > nav > ul > li > a {padding: 47px 7px}
+    .business .slide-content h5 {font-size: 30px}
+    .business .slide-content h2 {font-size: 18px; line-height: 26px}
+    .business .slide-content h5 {font-size: 20px; margin-bottom: 0px}
+    .business .slide-content p {font-size: 12px; letter-spacing: 0; padding-right: 0px}
+    .four .plan-img {float: none; margin-right: 0; text-align: center;  margin-bottom: 20px}
+    .four.plan-area .single-plan {padding: 40px 0px 50px 0px}
+    .four .plan-content {overflow: hidden; text-align: center}
+    .latest-right {margin-left: 0; margin-top: 65px}
+    .latest-area.two {padding-bottom: 0}
+    .latest-left {margin-top: 40px}
+    .business .slide-content {padding-left: 30px}
+    .business .slide-content h2 {font-size: 15px}
+    .sticky .main-menu.minimal > nav > ul > li > a {padding: 30px 8px 25px}
+    .sticky .main-menu.minimal > nav > ul > li:last-child > a {padding-right: 0;}
+    .sticky .main-menu.main.minimal > nav > ul > li > a {font-size: 11px;padding: 31px 3px 28px}
+    .sticky .logo {padding: 12px 0}
+    .sticky .main-menu.common > nav > ul > li > a {padding: 30px 7px 25px}
+    .search-btn {margin-left: 10px;}
+    .sticky .search-btn {padding: 12px 0}
+    .main-menu.minimal.corporate > nav > ul > li > a {padding: 39px 9px 35px}
+    .slider-area.corporate h2 {font-size: 35px}
+    .slider-area.corporate h2 span {font-size: 35px; padding-top: 15px}
+    .corporate .slide-content p {padding-right: 10px}
+    .corporate .slider-owl.owl-carousel .owl-dots {left: 30px}
+    .search-btn.corporate {padding: 27px 0}
+    .minimal .slide-content h2 {font-size: 35px}
+    .four.plan-area .single-plan {padding: 40px 11px 50px 0}
+    .section-title h2 {font-size: 25px}
+    .sticky .search {top: 70px}
+    .sticky.shop .search {top: 59px}
+    .product-grid-area::after, .product-list-area::after, .blog-page-area::after {background: #fff}
+    .blog-page-area .grid-right {padding-left: 0; margin-top: 30px; margin-left: 0; margin-right: 0}
+    .menu-bar-open {width: 300px}
+    .creative .menu-bar-open ul li ul {right: 20px; top: -25%}
+    input#name, input#mail{margin-bottom: 30px}
+    .contact-content p {font-size: 12px; margin-bottom: 0}
+    .contact-content {padding: 67px 0 58px}
+    .blog-content.detail h3 {font-size: 22px}
+    #contact-form input#name, #contact-form input#mail, #contact-form input#subject {margin-right: 10px; width: 227px}
+    .head-address ul li {margin-right: 20px}
+    .header-cart > i {height: 33px; width: 33px}
+    .off-hover h2 {padding: 22px 40px; font-size: 32px}
+    .sale-area .col-md-3:first-child .single-ftr, .sale-area .col-md-3:nth-child(2) .single-ftr{margin-bottom: 0px}
+    .sale-area .col-md-3:nth-child(5) .single-ftr, .sale-area .col-md-3:nth-child(6) .single-ftr{margin-bottom: 40px}
+    .blog-date h3 {font-size: 22px}
+    .blog-content p {font-size: 12px}
+    .product-grid-area .grid-right, .product-list-area .grid-right{margin-top: 30px; padding-left: 0; margin-left: 0; margin-right: 0}
+    .product-thumb.product-thumb ul li {width: 58px}
+    .sticky .header-cart.main {padding: 20px 0}
+    .business .slide-content h5::after {top: -20px}
+    .feature-content {padding: 13px 12px}
+    .main-wrapper, .main-wrapper.minimal{padding-left: 10px; padding-right: 10px}
+    .fun-area{padding-top: 70px; padding-bottom: 70px }
+    .main-wrapper .header-sticky.sticky {padding: 0 17px}
+    .main-wrapper.minimal .header-sticky.sticky {padding: 0 11px}
+    .four.plan-area.minimal .single-plan {padding-right: 10px}
+    .creative .slide-content-wrapper {padding: 180px 0}
+    .main-menu.common.minimal > nav > ul > li > a {padding: 38px 12px}
+    .sticky .main-menu.common.minimal > nav > ul > li > a {padding: 29px 12px}
+    .search-btn.common {margin-left: 20px}
+    .blog-page-area{padding-bottom: 80px}
+    .corporate .plan-img {margin-right: 5px; width: 40px}
+    .shop .header-cart.main ul.submenu-mainmenu {top: 103%}
+    .shop .slider-owl.owl-carousel .owl-dots {left: 30px}
+    .shop .owl-nav{display: none}
+    .your-order {
+      margin-top: 50px;
+    }
+    .tag-wrapper a {
+      margin-right: 8px;
+      padding: 7px 12px;
+    }
+    .latest-middle {
+  margin-left: 0;
+  margin-right: 0;
+}
+.latest-area .mb-90 {
+  margin-bottom: 50px;
+}    
+.built-area.two .built-content p.first {
+  margin-bottom: 16px;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .mobile-menu a.meanmenu-reveal {margin-top: -67px}
+    .business .mobile-menu a.meanmenu-reveal {margin-top: -55px}
+    .mobile-menu.common a.meanmenu-reveal {margin-top: -56px}
+    .mobile-menu.minimal a.meanmenu-reveal, .sticky .mobile-menu.minimal a.meanmenu-reveal {margin-top: -56px}
+    .sticky .mobile-menu a.meanmenu-reveal {margin-top: -55px}
+    .sticky .mobile-menu.corporate a.meanmenu-reveal {margin-top: -56px}
+    .common.mobile-menu a.meanmenu-reveal {margin-top: -51px}
+    .corporate .mobile-menu a.meanmenu-reveal {margin-top: -45px}
+    .logo, .logo.corporate {padding: 30px 0 32px}
+    .sticky .logo {padding: 20px 0}
+    .sticky .header-cart.main {padding: 19px 0; margin-left: 40px}
+    .slide-content h5.yellow, .slide-content h5 {font-size: 16px; line-height: 25px}
+    .slide-content h2 {font-size: 35px; line-height: 35px; margin-bottom: 20px; margin-top: 18px}
+    .section-title h2 {font-size: 27px}
+    .section-title p{padding: 12px 10px 0}
+    .single-plan, .col-md-4:nth-child(4) .single-latest, .col-md-4:nth-child(5) .single-latest, .single-testimonial, .single-blog, .single-contact, .grid-item-two, .sale-area .col-md-3:first-child{margin-bottom: 30px}
+    .col-md-4:last-child .single-plan, .col-sm-4:last-child .single-plan, .col-md-4:last-child .single-testimonial, .col-sm-4:last-child .single-contact, .grid-two .grid-item-two:last-child{margin-bottom: 0px}
+    .portfolio-area, .skill-right, .built-area{padding-top: 20px;}
+    .skill-right, .built-content{margin-left: 0}
+    .built-area, .blog-area, .testimonial-area.business{padding-top: 50px}
+    .plan-area-wrapper::before, .skill-area-wrapper::before, .blog-area-wrapper::before, .plan-area-wrapper::after, .skill-area-wrapper::after, .blog-area-wrapper::after {width: 51%}
+    .blog-img img, .instagram-wrapper a img, .cat6, .cat7, .cat8, .grid-item, .single-off img, .feature-img > img{width: 100%}
+    .blog-area{padding-bottom: 100px}
+    .blog-area-wrapper::before, .blog-area-wrapper::after {bottom: -60px}
+    .slide-content-wrapper {padding: 100px 0}
+    .slide-content h2{font-size: 23px; line-height: 24px;}
+    .slider-area p {font-size: 14px}
+    .owl-nav div, .main-menu-wrapper.shop.header-sticky{display: none}
+    .single-feature, .single-fun{margin-bottom: 30px;}
+    .col-sm-4:last-child .single-feature, .col-sm-3:last-child .single-fun{margin-bottom: 0px;}
+    .feature-area, .portfolio-area-two, .plan-area-wrapper, .skill-area-wrapper  {padding-top: 50px}
+    .portfolio-area-two, .blog-area.two, .skill-area.two, .built-area, .plan-area-wrapper  {padding-bottom: 50px}
+    .grid-item-two, .grid-item-three {float: left; width: 100%}
+    .footer-bottom form, .footer-bottom form input {width: 280px}
+    .header-cart.main {float: left;  margin-left: 40px}
+    .business .slide-content h2 {font-size: 18px; letter-spacing: 0; line-height: 28px}
+    .four.plan-area .single-plan {border-right: none; padding: 50px 10px 0px 15px}
+    .four.plan-area {border-bottom: none}
+    .latest-left {margin-right: 0px; margin-top: 0px}
+    .single-latest.mb-90{margin-bottom: 30px}
+    .latest-right {margin-left: 0px; margin-top: 0px}
+    .latest-middle {margin: 20px 0}
+    .latest-area.two{padding-bottom: 0}
+    .built-area.two .built-content {margin-right: 0; margin-top: 0}
+    .built-area.two .built-content a {display: inline-block; margin-bottom: 30px}
+    .blog-area.three{padding-top: 0}
+    .business .slide-content p {padding-right: 0px}
+    .slider-area.corporate h2, .slider-area.corporate h2 span {font-size: 30px;}
+    .two .testimonial-owl {border-bottom: none}
+    .footer-bottom p {margin-top: 10px; display: block; margin-bottom: 0}
+    .minimal .slide-content h2, .minimal .slide-content p {font-size: 15px; line-height: 22px}
+    .search-btn {margin-right: 45px; padding: 24px 0 23px}
+    .menu-bar {display: none}
+    input#name, input#mail{margin-bottom: 20px}
+    .logo.minimal {padding: 21px 0 20px}
+    .search {top: 72px}
+    .contact.comment h3 {font-size: 26px; margin-bottom: 40px}
+    .banner-content h2 {font-size: 20px}
+    .banner-breadcrumb ul li a, .banner-breadcrumb ul li {font-size: 11px}
+    .blog-page-area .grid-right {padding-left: 0px; margin-right: 0; margin-left: 0}
+    .blog-content.detail h3 {font-size: 15px; margin-top: 10px}
+    .product-grid-area::after, .product-list-area::after, .blog-page-area::after {background: #fff}
+    .shop .logo {padding: 20px 0 0px}
+    .head-address ul li {display: block; margin-bottom: 20px;}
+    .head-address {padding: 22px 0}
+    .header-cart.main.shop {float: left; margin-left: 0; padding-top: 0}
+    .mobile-menu.shop a.meanmenu-reveal {margin-top: -68px}
+    .shop .slide-content h2 {font-size: 16px; line-height: 26px}
+    .shop .slide-content h3 {font-size: 18px}
+    .shop .slide-content p {font-size: 13px}
+    .shop .slider-owl.owl-carousel .owl-dots, .corporate .slider-owl.owl-carousel .owl-dots {left: 16px}
+    .feature-page .col-md-3:first-child .single-ftr, .feature-page .col-md-3:nth-child(2), .sale-area .col-md-3:first-child .single-ftr, .sale-area .col-md-3:nth-child(2) .single-ftr, .col-sm-4:last-child .single-off{margin-bottom: 0px}
+    .sale-area .col-md-3:nth-child(5) .single-ftr, .sale-area .col-md-3:nth-child(6) .single-ftr, .single-off{margin-bottom: 40px}
+    .off-hover h2 {font-size: 32px; padding: 41px 75px}
+    .product-grid-area .grid-right, .product-list-area .grid-right{margin-top: 30px; padding-left: 0; margin-left: 0; margin-right: 0}
+    .list-left .ftr-img {float: inherit; margin-right: 0px}
+    .list-left .ftr-content h5 a {font-size: 16px}
+    .sticky .search-btn {padding: 24px 0 23px}
+    .sticky .search-btn.corporate {padding: 23px 0}
+    .search-btn.corporate{padding: 34px 0}
+    .business .slide-content h5::after {top: -20px;}
+    .business .slide-content h5 {margin-bottom: 0}
+    .business .slider-owl.owl-carousel .owl-dots, .sticky .header-top {display: none}
+    .mobile-menu.one a.meanmenu-reveal {margin-top: -66px}
+    .corporate .search, .corporate.sticky .search {top: 103px}
+    .sticky .corporate .search {top: 81px}
+    .sticky .mobile-menu.business a.meanmenu-reveal {margin-top: -58px}
+    .search-btn.common { padding: 30px 0 27px}
+    .common .search, .sticky .common .search {top: 71px}
+    .header-cart.main ul.submenu-mainmenu {left: 0; right: auto}
+    .shop .header-cart.main ul.submenu-mainmenu {top: 102%}
+    .product-thumb.product-thumb ul li {width: 54px}
+    .sticky .mobile-menu.one a.meanmenu-reveal {margin-top: -55px}
+    .blog-content p {font-size: 12px; line-height: 20px}
+    .blog-content h3, .single-blog-post h4 {font-size: 12px}
+    .corporate .slide-content-wrapper {padding: 80px 0}
+    .portfolio-area .grid .grid-item:nth-child(5), .portfolio-area .grid .grid-item:nth-child(6), .portfolio-area .grid .grid-item:nth-child(7){margin-bottom: 5px}
+    .sticky .mobile-menu.one a.meanmenu-reveal {margin-top: -54px}
+    .plan-area-wrapper::before, .skill-area-wrapper::before, .footer-area-wrapper::before {width: 51.5%}
+    .portfolio-title h2 {font-size: 25px}
+    .main-wrapper, .main-wrapper.minimal{padding-left: 5px; padding-right: 5px}
+    .main-wrapper .header-sticky.sticky {padding: 0 5px}
+    .fun-content h3 {font-size: 45px}
+    .main-wrapper .header-cart.main ul.submenu-mainmenu {left: -40px}
+    .four .single-plan {margin-bottom: 0px;}
+    .four .plan-img{width: 35px}
+    .slider-owl.owl-carousel .owl-dots {bottom: 20px}
+    .creative .slide-content-wrapper {padding: 150px 0}
+    .logo.common {padding: 10px 0}
+    .search-btn.common, .sticky .search-btn.common {padding: 19px 0 17px}
+    .logo.common {padding: 15px 0}
+    .two .testimonial-owl.owl-carousel .owl-dots {padding-top: 20px}
+    .corporate .slide-content p, .business .slide-content p {color: #ffffff; padding-right: 50px}
+    .business .slide-content h2 span {display: block}
+    .corporate .plan-img {margin-right: 10px; width: 45px}
+    .zoomContainer {display: none}
+    .login-form-container {
+        padding: 37px 20px;
+    }
+    input.button {
+  padding: 0 10px;
+}
+.coupon input {
+  width: 140px;
+}    
+.coupon2 {
+  float: left;
+  margin-top: 20px;
+}    
+.ptb-90 {
+  padding: 50px 0;
+}    
+p.checkout-coupon input[type="submit"] {
+  padding: 5px 12px;
+}    
+p.checkout-coupon input[type="text"] {
+  width: 150px;
+}    
+.your-order {
+  padding: 30px 10px 45px;
+}    
+.ship-different-title h3 label {
+  font-size: 17px;
+}    
+.ratting-author.f-right {
+  display: block;
+  float: left;
+  margin-top: 10px;
+}
+.ratting-star.f-left {
+  display: block;
+  width: 100%;
+}    
+.login-toggle-btn > a {
+  float: left;
+  margin: 10px 0;
+  width: 100%;
+}    
+.your-order {
+  margin-top: 50px;
+}    
+.mean-container .mean-nav > ul{
+  height: 210px;
+  overflow-y: auto;
+}    
+.skill-icon {
+  margin-right: 20px;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .mobile-menu a.meanmenu-reveal {margin-top: -50px}
+    .sticky .header-cart.main {padding: 24px 0; margin-left: 120px}
+    .sticky .mean-container a.meanmenu-reveal {margin-top: -60px}
+    .sticky .search-btn.corporate{padding: 32px 0 24px}
+    .search-btn.corporate {padding: 42px 0 36px}
+    .slide-content h2 {font-size: 28px; line-height: 26px}
+    .slider-area p {font-size: 16px}
+    .footer-bottom p {margin-top: 20px; float: left}
+    .minimal .slide-content h2, .minimal .slide-content p {font-size: 18px}
+    .mobile-menu a.meanmenu-reveal {margin-top: -70px}
+    .shop .slide-content h2 {font-size: 20px; line-height: 30px}
+    .shop .slide-content h3 {font-size: 22px}
+    .shop .slide-content p {font-size: 15px}
+    .head-address ul li {display: inline-block; margin-right: 18px; margin-bottom: 0px}
+    .head-address ul li span{font-size: 13px}
+    .mobile-menu.shop a.meanmenu-reveal {margin-top: -64px}
+    .header-cart.main {float: left; margin-left: 120px; padding: 35px 0}
+    .off-hover h2 {font-size: 55px; padding: 68px 115px}
+    .banner-breadcrumb ul li a, .banner-breadcrumb ul li {font-size: 14px}
+    .common.mobile-menu a.meanmenu-reveal {margin-top: -56px}
+    .search-btn.common, .sticky .search-btn.common {padding: 23px 0 23px}
+    .top-right {float: left}
+    .blog-content p {font-size: 13px; line-height: 28px}
+    .blog-content h3, .single-blog-post h4 {font-size: 14px}
+    .mobile-menu.one a.meanmenu-reveal {margin-top: -73px}
+    .main-wrapper{padding-left: 10px; padding-right: 10px}
+    .main-wrapper .header-cart.main ul.submenu-mainmenu {left: 0}
+    .header-cart.main {margin-left: 110px}
+    .sticky .mobile-menu.one a.meanmenu-reveal {margin-top: -60px}
+    .four.plan-area.minimal .single-plan {padding: 50px 44px 0 40px}
+    .creative.portfolio-area .grid-item {float: left; width: 50%;}
+    .common .search, .sticky .common .search {top: 81px}
+    .zoomWrapper img {width: 100%}
+    .product-thumb.product-thumb ul li {width: 90px}
+    .coupon2 {
+      float: right;
+      margin-top: 0;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
