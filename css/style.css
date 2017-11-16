@@ -98,6 +98,7 @@ a:focus{
 a:focus,
 a:hover {
     color: #fe5514;
+    text-shadow: 2px 2px 4px #000000;
     text-decoration: none;
 }
 a:active, a:hover {
@@ -121,7 +122,7 @@ label {
 *::-moz-selection {
     background: #b3d4fc;
     color: #fff;
-    text-shadow: none;
+    text-shadow: 2px 2px 4px #000000;
 }
 ::-moz-selection {
     color: #fff;
@@ -185,6 +186,7 @@ ul{
     position: relative;
     text-transform: uppercase;
     z-index: 9;
+    text-shadow: 2px 2px 4px #000000;
 }
 .default-btn:hover {color: #fe5514; background: #fff}
 .banner-btn span {
@@ -1437,6 +1439,7 @@ ul.submenu-mainmenu li.single-cart-item .cart-info > span {
 .slide-content h5.yellow, .slide-content h5 {
     color: #fe5514;
     font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
     font-size: 24px;
     font-weight: 700;
     line-height: 38px;
@@ -2729,7 +2732,7 @@ a.image-popup:hover{filter: brightness(1) invert(50%);}
 .single-widget{z-index: 1; position: relative}
 .single-widget p{
     font-size: 14px;
-    color: #959595;
+    color: #ffffff;
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
 }
@@ -2773,7 +2776,7 @@ a.image-popup:hover{filter: brightness(1) invert(50%);}
 }
 .tag-wrapper a{
     font-size: 14px;
-    color: #959595;
+    color: ##ffffff;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
     border: 2px solid #555555;
@@ -2811,7 +2814,7 @@ a.image-popup:hover{filter: brightness(1) invert(50%);}
     border: medium none;
     width: 450px;
     font-size: 14px;
-    color: #959595;
+    color: #ffffff;
 }
 .footer-bottom form button {
     position: absolute;
