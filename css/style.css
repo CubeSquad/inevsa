@@ -1665,6 +1665,7 @@ ul.submenu-mainmenu li.single-cart-item .cart-info > span {
 }
 .slider-area.corporate h2{
     color: #fff;
+    text-shadow: 2px 2px 4px #000000;
     display: block;
     font-size: 72px;
     font-weight: 700;
@@ -1672,6 +1673,7 @@ ul.submenu-mainmenu li.single-cart-item .cart-info > span {
 }
 .slider-area.corporate h2 span{
     color: #fff;
+    text-shadow: 2px 2px 4px #000000;
     display: block;
     font-size: 72px;
     font-weight: 800;
@@ -1684,6 +1686,7 @@ ul.submenu-mainmenu li.single-cart-item .cart-info > span {
 .corporate .slide-content p{
     font-size: 16px;
     color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
     letter-spacing: 0;
     padding-right: 150px;
     line-height: 24px;
