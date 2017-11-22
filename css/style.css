@@ -3036,6 +3036,7 @@ a.image-popup:hover{filter: brightness(1) invert(50%);}
 }
 .signle-sidebar-widget.sr h3 {margin-bottom: 47px}
 .signle-sidebar-widget ul li a{
+
     font-size: 14px;
     color: #424242;
     text-transform: capitalize;
@@ -3107,7 +3108,7 @@ a.image-popup:hover{filter: brightness(1) invert(50%);}
     right: 0;
     top: 0;
     width: 33.33%;
-    background: #009cb7;
+    background: #E4E4E4;
     content: "";
     height: 100%;
     z-index: -1;
