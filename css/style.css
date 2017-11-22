@@ -2577,7 +2577,7 @@ a.image-popup:hover{filter: brightness(1) invert(50%);}
     float: right;
 }
 .signle-sidebar-widget > p {
-    color: #797979;
+    color: #009cb7;
     font-size: 14px;
     font-weight: 500;
     font-family: "Raleway",sans-serif;
@@ -2593,14 +2593,14 @@ a.image-popup:hover{filter: brightness(1) invert(50%);}
 .signle-sidebar-widget > p{margin-bottom: 25px;}
 .add-content{display: table-cell}
 .add-content > p{
-    color: #797979;
+    color: #009cb7;
     font-size: 14px;
     font-weight: 500;
     font-family: "Raleway",sans-serif;
     margin-bottom: 15px;
 }
 .add-content span{
-    color: #252525;
+    color: #ff5400;
     font-weight: 700;
 }
 .panel-default > .panel-heading {
@@ -3029,7 +3029,7 @@ a.image-popup:hover{filter: brightness(1) invert(50%);}
 }
 .signle-sidebar-widget h3{
     font-size: 16px;
-    color: #009cb7;
+    color: #ff5400;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 34px;
