@@ -120,17 +120,17 @@ label {
     color: #606060;
 }
 *::-moz-selection {
-    background: #b3d4fc;
+    background: #ff5400;
     color: #fff;
     text-shadow: 2px 2px 4px #000000;
 }
 ::-moz-selection {
     color: #fff;
-    background: #b3d4fc;
+    background: #ff5400;
     text-shadow: none;
 }
 ::selection {
-    background: #b3d4fc;
+    background: #ff5400;
     text-shadow: none;
     color: #fff;
 }
@@ -1827,7 +1827,7 @@ ul.submenu-mainmenu li.single-cart-item .cart-info > span {
 .three .plan-area-wrapper:before, .three .plan-area-wrapper:after{display: none}
 .plan-area-wrapper, .skill-area-wrapper, .footer-area-wrapper{position: relative; z-index: 1}
 .plan-area-wrapper::before, .skill-area-wrapper::before, .footer-area-wrapper::before {
-    background: #F5F5F5 none repeat scroll 0 0;
+    background: #009cb7 none repeat scroll 0 0;
     bottom: -30px;
     content: "";
     height: 60px;
@@ -1838,7 +1838,7 @@ ul.submenu-mainmenu li.single-cart-item .cart-info > span {
     z-index: -1;
 }
 .plan-area-wrapper::after, .skill-area-wrapper::after, .footer-area-wrapper::after {
-    background: #F5F5F5 none repeat scroll 0 0;
+    background: #ff5400 none repeat scroll 0 0;
     bottom: -30px;
     content: "";
     height: 60px;
@@ -3029,7 +3029,7 @@ a.image-popup:hover{filter: brightness(1) invert(50%);}
 }
 .signle-sidebar-widget h3{
     font-size: 16px;
-    color: #424242;
+    color: #009cb7;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 34px;
@@ -3107,7 +3107,7 @@ a.image-popup:hover{filter: brightness(1) invert(50%);}
     right: 0;
     top: 0;
     width: 33.33%;
-    background: #F7F7F7;
+    background: #009cb7;
     content: "";
     height: 100%;
     z-index: -1;
