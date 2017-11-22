@@ -254,7 +254,7 @@ textarea {
 .section-title{margin-bottom: 55px}
 .section-title h5{
     font-size: 12px;
-    color: #636363;
+    color: #009cb7;
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
@@ -263,7 +263,7 @@ textarea {
 }
 .section-title h2{
     font-size: 38px;
-    color: #363636;
+    color: #ff5400;
     text-transform: none;
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
@@ -1811,7 +1811,7 @@ ul.submenu-mainmenu li.single-cart-item .cart-info > span {
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
     font-weight: 800;
-    color: #363636;
+    color: #ff5400;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 17px;
@@ -1820,7 +1820,7 @@ ul.submenu-mainmenu li.single-cart-item .cart-info > span {
     transition: all 0.5s ease 0s;
 }
 .plan-content p{
-    color: #898989;
+    color: #009cb7;
     margin-bottom: 0px;
 }
 .plan-area, .skill-area, .blog-area{overflow: hidden}
@@ -2385,7 +2385,7 @@ ul.submenu-mainmenu li.single-cart-item .cart-info > span {
     display: table-cell;
 }
 .comment-content a.reply, button.reply{
-    color: #000;
+    color: #FFFFFF;
     background: #fe5514;
     border-radius: 3px;
     font-size: 12px;
