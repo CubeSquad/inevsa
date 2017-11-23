@@ -224,6 +224,7 @@ textarea {
 }
 .banner-content h2 {
     color: #fff;
+    text-shadow: 2px 2px 4px #000000;
     font-family: "Raleway",sans-serif;
     font-size: 35px;
     font-weight: 400;
@@ -238,6 +239,7 @@ textarea {
 .banner-breadcrumb ul li a, .banner-breadcrumb ul li{
     font-size: 14px;
     color: #fff;
+    text-shadow: 2px 2px 4px #000000;
     font-weight: 400;
     font-style: italic;
     font-family: 'PT Serif', serif;
