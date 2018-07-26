@@ -2444,7 +2444,7 @@ button.reply{
 .news-heffect{position: relative; overflow: hidden; display: block}
 a.hover{position: relative; overflow: hidden; display: block}
 .news-heffect::before, .news-heffect::after {
-    background: rgba(255, 84, 0, 0.5) none repeat scroll 0 0;
+    background: rgba(0, 156, 183, 0.5) none repeat scroll 0 0;
     content: "";
     height: 200%;
     left: 0;
