@@ -1911,7 +1911,7 @@ ul.submenu-mainmenu li.single-cart-item .cart-info > span {
   margin-bottom: 35px;
 }
 .portfolio-area-four .section-title{
-    background: #1A1A1C;
+    background: #009cb7;
     padding: 44px 0 32px;
     margin-bottom: 0;
 }
@@ -2444,7 +2444,7 @@ button.reply{
 .news-heffect{position: relative; overflow: hidden; display: block}
 a.hover{position: relative; overflow: hidden; display: block}
 .news-heffect::before, .news-heffect::after {
-    background: rgba(226, 221, 0, 0.5) none repeat scroll 0 0;
+    background: rgba(255, 84, 0, 0.5) none repeat scroll 0 0;
     content: "";
     height: 200%;
     left: 0;
@@ -3565,4 +3565,82 @@ a.image-popup:hover{filter: brightness(1) invert(50%);}
 }
 .download-btn-wrapper > button:last-child {
     margin-bottom: 0;
+}
+
+/*----------------------------------------*/
+/*  18. Scrollup CSS
+/*----------------------------------------*/
+#scrollUp {
+    border-radius: 2px;
+    bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    color: #ff5400;
+    font-size: 24px;
+    height: 40px;
+    line-height: 45px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+    z-index: 200;
+}
+#scrollUp:hover {
+}
+@keyframes scroll-top {
+0% {
+    bottom: 0;
+    opacity: 0;
+}
+50% {
+    bottom: 50%;
+    opacity: 1;
+}
+100% {
+    bottom: 75%;
+    opacity: 0;
+}
+}
+@keyframes scroll-top {
+0% {
+    bottom: 0;
+    opacity: 0;
+}
+50% {
+    bottom: 50%;
+    opacity: 1;
+}
+100% {
+    bottom: 75%;
+    opacity: 0;
+}
+}
+@keyframes scroll-top {
+0% {
+    bottom: 0;
+    opacity: 0;
+}
+50% {
+    bottom: 50%;
+    opacity: 1;
+}
+100% {
+    bottom: 75%;
+    opacity: 0;
+}
+}
+#scrollUp:hover i {
+    animation: 800ms linear 0s normal none infinite running scroll-top;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin-bottom: -25px;
+    position: absolute;
+    width: 100%;
+}
+#scrollUp i {
+    color: #ffffff;
+}
+#scrollUp {
+    background: #009cb7 none repeat scroll 0 0;
 }
